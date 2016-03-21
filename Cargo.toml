@@ -1,0 +1,10 @@
+[package]
+name = "rust_ffi"
+version = "0.1.0"
+authors = ["Michael Sproul <micsproul@gmail.com>"]
+
+[lib]
+name = "rustffi"
+crate-type = ["staticlib"]
+
+[dependencies]
